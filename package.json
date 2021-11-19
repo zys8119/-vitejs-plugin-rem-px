@@ -1,0 +1,22 @@
+{
+  "name": "@vitejs/plugin-rem-px",
+  "version": "0.0.1",
+  "description": "vite字体px自动响应",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zys8119/vitejs-plugin-rem-px.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zys8119/vitejs-plugin-rem-px/issues"
+  },
+  "homepage": "https://github.com/zys8119/vitejs-plugin-rem-px#readme",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
+}
