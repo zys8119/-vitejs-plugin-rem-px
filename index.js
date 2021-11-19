@@ -1,11 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // @ts-ignore
-var vue_1 = require("vue");
-exports.default = {
+import { ref } from "vue";
+export default {
     install: function (app, opts) {
-        var rem = vue_1.ref(0);
-        var base = vue_1.ref(opts && opts.base ? opts.base : 0);
+        var rem = ref(0);
+        var base = ref(opts && opts.base ? opts.base : 0);
         var $$remInit = function () {
             rem.value = window.innerWidth;
         };
