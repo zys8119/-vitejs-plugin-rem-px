@@ -1,11 +1,11 @@
-# @vitejs/plugin-rem-px
+# vitejs-plugin-rem-px
 
 vite字体px自动响应
 
 ## 安装
 
 ```
-npm i @vitejs/plugin-rem-px -S
+npm i vitejs-plugin-rem-px -S
 ```
 
 ## 使用方法

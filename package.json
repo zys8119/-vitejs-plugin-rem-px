@@ -1,5 +1,5 @@
 {
-  "name": "@vitejs/plugin-rem-px",
+  "name": "vitejs-plugin-rem-px",
   "version": "0.0.1",
   "description": "vite字体px自动响应",
   "main": "index.ts",
