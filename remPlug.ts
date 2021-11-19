@@ -46,7 +46,7 @@ export default (options:string[])=>{
                 ctx.server.ws.send({
                     type: 'full-reload'
                 })
-                return result.reduce((a,b)=>{
+                return result.reduce((a,b:any)=>{
                     return a.concat([...b.importedModules].filter(e=>/\.less$/.test(e.id)));
                 },[]);
             }
