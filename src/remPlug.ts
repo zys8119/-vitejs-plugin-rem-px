@@ -3,8 +3,8 @@ import {readFileSync} from "fs";
 import {resolve} from "path";
 import {parse} from "@vue/compiler-sfc";
 export default (options:string[])=>{
-    const RelationshipFile = {};
-    const getCssStr = (options)=>(options || []).map(filePath => {
+    const RelationshipFile:any = {};
+    const getCssStr = (options:any)=>(options || []).map((filePath:string) => {
         RelationshipFile[filePath] = filePath;
         return readFileSync(filePath, "utf-8");
     }).join("\n")+'\n';
