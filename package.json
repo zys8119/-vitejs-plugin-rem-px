@@ -1,8 +1,9 @@
 {
   "name": "vitejs-plugin-rem-px",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "vite字体px自动响应",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "scripts": {
     "start": "gulp default",
     "build": "npm start",
