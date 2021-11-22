@@ -1,7 +1,13 @@
 import {Plugin, App} from "vue"
+import {Plugin as vitePlugin} from "vite"
 declare const remPlug :Plugin & remPlugInstall;
 type remPlugInstall  = {
     install(app:App,  ...options: remPlugOptions[]):void;
+    /**
+     * 文件路径
+     * @param options
+     */
+    remPlug?(options:string[]):vitePlugin;
 }
 type remPlugOptions = {
     /**

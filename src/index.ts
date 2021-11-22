@@ -1,5 +1,5 @@
-// @ts-ignore
 import {Plugin, ref} from "vue";
+import remPlug from "./remPlug";
 const Index = <Plugin>{
     install(app, opts){
         const rem = ref(0);
@@ -23,3 +23,4 @@ const Index = <Plugin>{
     }
 }
 export default Index;
+exports.remPlug = remPlug;
