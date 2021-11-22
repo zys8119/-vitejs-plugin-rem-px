@@ -20,7 +20,7 @@ const Index = <Plugin>{
         }
         window.addEventListener("load", $$remInit);
         window.addEventListener("resize",$$remInit);
-    }
+    },
+    remPlug
 }
 export default Index;
-exports.remPlug = remPlug;
