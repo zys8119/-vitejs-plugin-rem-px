@@ -1,6 +1,6 @@
 {
   "name": "vitejs-plugin-rem-px",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "vite字体px自动响应",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
