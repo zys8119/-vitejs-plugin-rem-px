@@ -1,8 +1,8 @@
 {
   "name": "vitejs-plugin-rem-px",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "vite字体px自动响应",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
