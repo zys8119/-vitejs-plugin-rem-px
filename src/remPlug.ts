@@ -2,7 +2,7 @@ import {HmrContext, ModuleNode, PluginOption, TransformResult} from "vite";
 import {readFileSync} from "fs";
 import {resolve} from "path";
 import {parse} from "@vue/compiler-sfc";
-export default (options:string[])=>{
+const RemPlug = (options:string[])=>{
     const RelationshipFile:any = {};
     const getCssStr = (options:any)=>(options || []).map((filePath:string) => {
         RelationshipFile[filePath] = filePath;
@@ -62,3 +62,4 @@ export default (options:string[])=>{
         }
     }
 }
+export default RemPlug;

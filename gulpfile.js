@@ -8,9 +8,9 @@ gulp.task("default", function () {
     return gulp.src("src/**")
         .pipe(tsProject())
         .js
-        .pipe(babel({
-            presets: ["@babel/preset-env"]
-        }))
+        // .pipe(babel({
+        //     presets: ["@babel/preset-env"]
+        // }))
         .pipe(umd())
         // .pipe(uglify())
         .pipe(gulp.dest("dist"));

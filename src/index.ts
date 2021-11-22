@@ -1,7 +1,6 @@
 // @ts-ignore
 import {Plugin, ref} from "vue";
-
-export default <Plugin>{
+const Index = <Plugin>{
     install(app, opts){
         const rem = ref(0);
         const base = ref(opts && opts.base ?  opts.base :  0);
@@ -23,3 +22,4 @@ export default <Plugin>{
         window.addEventListener("resize",$$remInit);
     }
 }
+export default Index;
